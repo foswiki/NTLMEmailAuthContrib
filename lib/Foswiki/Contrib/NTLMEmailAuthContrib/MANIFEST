@@ -1,0 +1,4 @@
+!noci
+data/System/NTLMEmailAuthContrib.txt 0644 Documentation page
+lib/Foswiki/Contrib/NTLMEmailAuthContrib.pm  Perl module 
+lib/Foswiki/Contrib/NTLMEmailAuthContrib/Config.spec 0444 Configuration

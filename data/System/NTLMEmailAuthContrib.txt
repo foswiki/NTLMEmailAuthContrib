@@ -1,0 +1,42 @@
+<!--
+One line description, required for extensions repository catalog.
+   * Set SHORTDESCRIPTION = Provide NTLM authentication for Net::SMTP e-mail from Foswiki
+-->
+---+!! NTLMEmailAuthContrib
+
+%SHORTDESCRIPTION%
+
+%TOC%
+
+---++ Installation
+%$INSTALL_INSTRUCTIONS%
+
+This contrib is used by Wiki administrators, and is not directly relevant to ordinary users.
+
+It applies to installations using the Net::SMTP email method for Foswiki-originated e-mail, 
+and does not apply to those installations using sendmail or another mail program to send mail.
+
+Simply install this contrib to enable Foswiki email originated by Net::SMTP to use servers
+that require NTLM (Microsoft Windows) authentication.
+
+When the contrib has been installed, specify the Windows credentials in Configure under
+{SMTP}Username and {SMTP}{Password}.  To specify a domain name, enter it in the Username
+field as domain\username.  
+
+Although not recommended and insecure, you can prefix the username with V1: (e.g. V1:domain\user
+or V1:user) to requrest NTLMv1 authentication.
+
+
+---++ Info
+
+|  Author: | TimotheLitt |
+|  Copyright &copy;: 2012, Timothe Litt, All Rights Reserved |
+|  License: | GPL ([[http://www.gnu.org/copyleft/gpl.html][GNU General Public License]]) |
+|  Dependencies: | %$DEPENDENCIES% |
+|  Version: | %$VERSION% |
+|  Change History: | <!-- versions below in reverse order -->&nbsp; |
+|  1.0.3 (27 Dec 20X12): | Initial version |
+|  Home: | http://foswiki.org/Extensions/%TOPIC% |
+|  Support: | http://foswiki.org/Support/%TOPIC% |
+
+
