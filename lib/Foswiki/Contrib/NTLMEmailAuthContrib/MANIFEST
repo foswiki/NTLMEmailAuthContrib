@@ -1,3 +1,4 @@
 !noci
 data/System/NTLMEmailAuthContrib.txt 0644 Documentation page
 lib/CPAN/lib/Authen/SASL/Perl/NTLM.pm 0444 Authen::SASL extension
+lib/Foswiki/Contrib/NTLMEmailAuthContrib/NTLMEmailAuthContrib.pm
